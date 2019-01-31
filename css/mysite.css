@@ -1,0 +1,314 @@
+
+.navb:hover {
+    color: #516425;
+}
+
+
+
+body {
+    
+    width: 100%;
+    height: 100%;
+    background-color: black !important;
+   
+    
+    
+}
+
+.navb {
+    background-color: #000000d7 !important;
+    position: fixed;
+    z-index: 1;
+}
+
+header div div div div h1 {
+    border-left: 2px white solid;
+border-right: 2px white solid; 
+border-top: 2px white solid;
+padding: 20px;
+padding-bottom: 0 !important;
+margin-top: 15%;
+
+    
+}
+
+header div div div {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+   
+header {
+   
+   
+    
+    width: 100%;
+    height: 100%;
+    
+    
+   
+   
+    
+   
+
+}
+
+.main-head {
+    background: url('../img/bgsec-.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-position: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); 
+    
+}
+
+.bord-bot {
+    border-bottom: 2px white solid;
+
+}
+
+.bord-top {
+    border-top: 2px white solid;
+}
+
+.pt-3 {
+    border-left: 2px white solid;
+    border-right: 2px white solid; 
+    border-bottom: 2px white solid;
+    padding: 20px;
+    margin: 5px;
+    font-size: 40px !important
+}
+
+
+
+.text-head {
+    opacity: 1.5 !important;
+    
+}
+
+/* .toskew {
+    border-top: 30px black solid;
+    /* transform: skewY(-3deg) !important;
+    -ms-transform: skewY(-3deg) !important;
+    -webkit-transform: skewY(-3deg) !important; */
+     /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); 
+    z-index: 1;
+     */
+
+
+/* .tounskew {
+    transform: skewY(3deg) !important;
+    -ms-transform: skewY(3deg) !important;
+    -webkit-transform: skewY(3deg) !important;
+} */
+
+
+.sec3 {
+    width: 100%;
+    height: 100%; 
+   
+}
+
+.sec3-1 {
+    background: url('../img/bgsec.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 15% 4% 15%;
+    background-position: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 13%, 100% 85%, 0 100%); 
+    margin-top: -7%;
+
+    
+}
+.sec3-1 div {
+  
+}
+
+.sec3 div div {
+    margin-top: 9%;
+    margin-bottom: 9%;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+   
+   
+    
+
+}
+
+.card {
+    box-shadow: 10px 10px 8px black;
+    margin-right: 4% !important;
+    background-image: linear-gradient(to right,rgb(28, 92, 28), rgb(82, 207, 33))!important;
+    opacity: 0.9;
+    /* clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -ms-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -webkit-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%); */
+    transform:rotateX(60deg);
+    -ms-transform:rotateX(60deg);
+    -webkit-transform:rotateX(60deg);
+    
+    transition: all 1s;
+    -ms-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+   
+    
+}
+.card-deck {
+    perspective: 800px;
+    -webkit-perspective: 800px;
+    -ms-perspective: 800px;
+    
+    
+}
+.card img {
+   
+    /* perspective: 800px;
+    -webkit-perspective: 800px;
+    -ms-perspective: 800px
+    transform:rotateX(60deg);
+    -ms-transform:rotateX(60deg);
+    -webkit-transform:rotateX(60deg);
+    clip-path: polygon(0 0, 100% 13%, 100% 85%, 0 100%);
+    -ms-clip-path: polygon(0 0, 100% 13%, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 13%, 100% 85%, 0 100%);
+    transition-duration: 1s; */
+}
+
+.card img:hover {
+    
+    /* transform:rotate(0deg) scale(1.33, 1.33);
+    -ms-transform:rotate(0deg) scale(1.33, 1.33);
+    -webkit-transform:rotate(0deg) scale(1.33, 1.33);
+    clip-path: none;
+    -ms-clip-path: none;
+    -webkit-clip-path: none; */
+
+    
+
+    
+   
+}
+
+.card:hover {
+    box-shadow: 10px 10px 8px rgba(49, 218, 114, 0.794);
+   
+    background-image: linear-gradient(to right, rgb(71, 214, 14),rgb(34, 97, 34))!important;
+    opacity: 1.0;
+    transform:rotate(0deg) scale(1.33, 1.33);
+    -ms-transform:rotate(0deg) scale(1.33, 1.33);
+    -webkit-transform:rotate(0deg) scale(1.33, 1.33);
+    /* perspective: 1200px;
+    -webkit-perspective: 1200px;
+    -ms-perspective: 800px; */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+    -ms-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+}
+    
+    
+
+    
+
+.crd {
+    font-size: 70px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.music-crd {
+    clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -ms-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -webkit-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    
+}
+
+.draw-crd {
+    clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -ms-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -webkit-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    
+}
+
+.photo-crd {
+    clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -ms-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    -webkit-clip-path: polygon(17% 0%, 80% -25%, 100% 124%, 0 100%);
+    
+}
+.crd1 {
+    font-size: 50px!important;
+    text-align: center!important;
+    color: whitesmoke!important;
+}
+
+.card-footer {
+    text-align: center;
+}
+.sec4 {
+    width: 100%;
+    height: 100%;
+    
+}
+.sec4-1 {
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 15% 4% 15%;
+    background-position: 100%;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); 
+    margin-top: -9%;
+    
+}
+
+.adress-ct {
+    background-color: rgba(250, 235, 215, 0.65);
+   
+   
+}
+
+.adress-col {
+ padding: 10%;
+}
+
+#sign {
+    width: 12%!important;
+    height: 10%!important;
+}
+
+#sign-fr {
+    width: 37%;
+}
+
+#sign-fr input {
+    width: 80%;
+    height: 70%;
+}
+
+#submit {
+    width: 35%;
+    height: 20%;
+    border-radius: 24%;
+    box-shadow: 2px 2px 1px black;
+    background-color: blue
+}
+
+#submit:hover {
+    width: 35%;
+    height: 20%;
+    border-radius: 24%;
+    box-shadow: 2px 2px 1px rgb(240, 240, 240);
+    color: antiquewhite;
+    background-color: green;
+}
+
